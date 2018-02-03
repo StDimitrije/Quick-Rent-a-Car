@@ -1,0 +1,40 @@
+<div class="radioContainer">
+  <h4>1. Izaberite paket osiguranje.</h4>
+  <div class="ui-g" style="width:250px;margin-bottom:10px">
+    <div class="ui-g-12">
+      <p-radioButton name="group1" value="Kasko osiguranje" label="Kasko osiguranje" [(ngModel)]="val1" inputId="opt1"></p-radioButton>
+    </div>
+    <div class="ui-g-12">
+      <p-radioButton name="group1" value="Osiguranje za staklo i felne" label="Osiguranje za staklo i felne" [(ngModel)]="val1"
+        inputId="opt2"></p-radioButton>
+    </div>
+    <div class="ui-g-12">
+      <p-radioButton name="group1" value="Basic osiguranje" label="Basic osiguranje" [(ngModel)]="val1" inputId="opt3"></p-radioButton>
+    </div>
+  </div>
+</div>
+
+<div class="infoContainer">
+  <h4>2. Info:</h4>
+  <label for="firstName-input">First Name:</label>
+  <input id="firstName-input" type="text" size="20" pInputText [(ngModel)]="firstName">
+
+  <label for="lastName-input">Last Name:</label>
+  <input id="lastName-input" type="text" size="20" pInputText [(ngModel)]="lastName">
+  <br>
+  <label for="birthday-input">Date of birth:</label>
+  <input id="birthday-input" type="text" size="11" pInputText [(ngModel)]="birthDate">
+
+  <label for="birthPlace-input">Place of birth:</label>
+  <input id="birthPlace-input" type="text" size="20" pInputText [(ngModel)]="birthPlace">
+  <br>
+
+  <label for="licenceNm-input">Licence number:</label>
+  <input id="licenceNm-input" type="number" size="5" pInputText [(ngModel)]="licenceNm">
+
+  <label for="mestoIzdavanja-input">Mesto izdavanja:</label>
+  <input id="mestoIzdavanja-input" type="text" size="20" pInputText [(ngModel)]="mestoIzdavanja">
+  <br>
+
+  <p-button icon="fa fa-fw fa-check" iconPos="right" label="Submit" [routerLink]="['/confirmation']"></p-button>
+</div>

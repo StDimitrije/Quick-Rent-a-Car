@@ -1,0 +1,38 @@
+button{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#time-place{
+    margin-top: 100px;
+    width: 50%;
+    margin: auto;
+}
+
+.left-side{
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+.right-side{
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 0px;
+    float: right;
+}
+
+p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+

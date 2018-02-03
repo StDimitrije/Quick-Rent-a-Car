@@ -1,0 +1,20 @@
+<section id="time-place">
+<div class="left-side">
+    <p>Datum i vreme preuzimanja:</p>
+    <p-calendar id="calendar-a" [(ngModel)]="date1" [showIcon]="true" [showTime]="true" dateFormat="dd.mm.yy"></p-calendar>
+
+    <p>Mesto preuzimanja:</p>
+    <p-dropdown id="location-a" [(ngModel)]="selectedCity1" optionLabel="name"></p-dropdown>
+
+</div>
+
+<div class="right-side">
+    <p>Datum i vreme vracanja:</p>
+    <p-calendar id="calendar-b" [(ngModel)]="date2" [showIcon]="true" [showTime]="true" dateFormat="dd.mm.yy"></p-calendar>
+
+    <p>Mesto vracanja:</p>
+    <p-dropdown id="location-b" [options]="cities" [(ngModel)]="selectedCity2" optionLabel="name"></p-dropdown>
+</div>
+
+<button type="submit" class="searchButton" [routerLink]="['/choose-vehicle']">Find a vehicle</button>
+</section>
