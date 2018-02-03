@@ -2,3 +2,20 @@ h1{
     text-align: center;
     color: #1d97e8;
 }
+
+.regards{
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+p{
+    font-weight: bold;
+    font-size: 15px;
+}
